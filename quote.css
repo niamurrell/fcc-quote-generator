@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite|Open+Sans+Condensed:300|Signika:600');
+
+body {
+  color: #FFF;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 5%;
+  font-family: 'Special Elite', cursive;
+  font-size: 70px;
+  letter-spacing: 0.25em;
+  text-shadow: 5px 5px #558ABB;
+}
+
+h4 {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+
+button {
+  margin-bottom: 5%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+i {
+  color: #FFF;
+  margin-bottom: 5%;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+.banner {
+  position: relative;
+  z-index: 2;
+}
+
+.quote-holder {
+  margin: 5% 20% 5% 20%;
+  padding: 5px 5px 5px 5px;
+  position: relative;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 120%;
+  letter-spacing: 0.1em;
+}
+
+.button {
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  color: #FFF;
+  padding: 8px 32px;
+  font-family: 'Signika', sans-serif;
+  font-style: italic;
+  text-decoration: none;
+  text-transform: lowercase;
+  display: inline-block;
+  font-size: 20px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background: #FFF;
+  color: #558ABB;
+}
+
+.fa {
+  display: block;
+}
